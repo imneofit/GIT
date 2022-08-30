@@ -13,7 +13,7 @@ module "vpc" {
   name = "my-vpc"
   cidr = "10.0.0.0/16"
 
-  azs            = ["us-east-1a"]
+  azs            = ["us-east-1c"]
   public_subnets = ["10.0.1.0/24"]
 
 
